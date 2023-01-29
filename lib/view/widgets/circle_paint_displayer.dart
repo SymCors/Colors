@@ -47,8 +47,8 @@ class _CirclePaintDisplayerState extends State<CirclePaintDisplayer> {
         builder: (context, child) {
           final radius = (widget.controller?.value ?? 1) *
               max(
-                MediaQuery.of(context).size.width + DimensionConstants.px50,
-                MediaQuery.of(context).size.height + DimensionConstants.px50,
+                MediaQuery.of(context).size.width + DimensionConstants.px200,
+                MediaQuery.of(context).size.height + DimensionConstants.px200,
               );
 
           return SizedBox.expand(

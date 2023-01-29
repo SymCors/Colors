@@ -44,4 +44,7 @@ class DimensionConstants {
 
   /// 160.
   static const double px160 = 160;
+
+  /// 160.
+  static const double px200 = 200;
 }
